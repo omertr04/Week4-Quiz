@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Code Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Code Quiz- By Omer</h1>
+    </header>
+    <main>
+      <!-- Starting with the star-page this is where i introduce the user to the website -->
+      <section id="start-page">
+        <h2>Welcome to the Code Quiz!</h2>
+        <p>Test your knowledge of JavaScript with multiple-choice questions.</p>
+        <button id="start-btn">Start Quiz</button>
+      </section>
+
+      <!-- Quiz Page - This is where the questions will appear also including the timer function as requested in  the criteria given to us -->
+      <section id="quiz-page" class="hide">
+        <h2 id="question"></h2>
+        <ul id="choices"></ul>
+        <div id="timer">Time Left: <span id="time-left"></span></div>
+      </section>
+
+      <!-- Result Page this is where the user can update and access their scores -->
+      <section id="result-page" class="hide">
+        <h2>Your Quiz Result</h2>
+        <p id="score"></p>
+        <form id="highscore-form">
+          <label for="initials">Enter your initials:</label>
+          <input type="text" id="initials" maxlength="3" required>
+          <button type="submit">Submit</button>
+        </form>
+        <button id="go-back-btn">Go Back</button>
+        <button id="clear-scores-btn">Clear Highscores</button>
+        <ul id="highscore-list"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

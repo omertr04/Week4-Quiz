@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /* Start Page */
+  #start-page {
+    text-align: center;
+  }
+  
+  #start-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Quiz Page */
+  #quiz-page {
+    text-align: center;
+  }
+  
+  #question {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  #choices {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #choices li {
+    margin-bottom: 10px;
+  }
+  
+  #choices button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #choices button:hover {
+    background-color: #ccc;
+  }
+  
+  #timer {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Result Page */
+  #result-page {
+    text-align: center;
+  }
+  
+  #score {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #highscore-form {
+    margin-bottom: 20px;
+  }
+  
+  #initials {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #go-back-btn,
+  #clear-scores-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #go-back-btn:hover,
+  #clear-scores-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #highscore-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #highscore-list li {
+    margin-bottom: 10px;
+  }
+  
