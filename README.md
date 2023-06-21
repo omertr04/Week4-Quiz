@@ -1,99 +1,38 @@
-# 04 Web APIs: Code Quiz
+# Code Quiz - by Omer 
 
-## Your Task
+This is a coding quiz application that tests your knowledge of JavaScript fundamentals. The quiz consists of multiple-choice questions, and your score is calculated based on the number of correct answers you provide within the time limit.
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+## Features
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+- User-friendly interface
+- Timed quiz with a countdown timer
+- Multiple-choice questions
+- Instant feedback on correct and incorrect answers
+- Highscore tracking
+- Ability to save and view highscores
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+## Getting Started
 
-## User Story
+To run the quiz application, simply open the `index.html` file in your web browser. The application is built using HTML, CSS, and JavaScript, so you don't need any additional dependencies or installations.
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## How to Play
 
-## Acceptance Criteria
+1. Click the "Start Quiz" button to begin the quiz.
+2. You will be presented with a series of multiple-choice questions.
+3. Read each question carefully and select the answer you believe is correct.
+4. If you select the correct answer, you will receive points.
+5. If you select the wrong answer, time will be deducted from the countdown timer.
+6. The quiz ends when you have answered all the questions or the timer reaches 0.
+7. After the quiz ends, you can enter your initials to save your score.
+8. You can view the highscores by clicking the "View Highscores" link.
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Customize the Quiz - Altough i added some boring questions, if you wanted to try this you can customise the code to put in questions of your choice and play with friends and family!!!
 
-## Mock-Up
+If you want to customize the quiz and add your own questions, you can modify the `questions` array in the `script.js` file. Each question is defined by an object with the following properties:
 
-The following animation demonstrates the application functionality:
-
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+```javascript
+{
+  question: "Question text",
+  choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+  answer: "Correct Choice"
+}
