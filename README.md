@@ -1,6 +1,7 @@
 # Code Quiz - by Omer 
 
-This is a coding quiz application that tests your knowledge of JavaScript fundamentals. The quiz consists of multiple-choice questions, and your score is calculated based on the number of correct answers you provide within the time limit.
+This is a coding quiz application that tests your knowledge of JavaScript fundamentals. The quiz consists of multiple-choice questions, and your score is calculated based on the number of correct answers you provide within the time limit. Time will be deducted 
+by 10 seconds if a question is answered incorrectly. 
 
 ## Features
 
@@ -13,7 +14,7 @@ This is a coding quiz application that tests your knowledge of JavaScript fundam
 
 ## Getting Started
 
-To run the quiz application, simply open the `index.html` file in your web browser. The application is built using HTML, CSS, and JavaScript, so you don't need any additional dependencies or installations.
+To run the quiz application, simply open the `index.html` file in your web browser. The application is built using HTML, CSS, and JavaScript.
 
 ## How to Play
 
@@ -26,9 +27,10 @@ To run the quiz application, simply open the `index.html` file in your web brows
 7. After the quiz ends, you can enter your initials to save your score.
 8. You can view the highscores by clicking the "View Highscores" link.
 
-## Customize the Quiz - Altough i added some boring questions, if you wanted to try this you can customise the code to put in questions of your choice and play with friends and family!!!
+## Customize the Quiz - 
+# Altough i added some boring questions, if you wanted to try this you can customise the code to put in questions of your choice and play with friends and family!
 
-If you want to customize the quiz and add your own questions, you can modify the `questions` array in the `script.js` file. Each question is defined by an object with the following properties:
+ you can modify the `questions` array in the `script.js` file as shown below. 
 
 ```javascript
 {
